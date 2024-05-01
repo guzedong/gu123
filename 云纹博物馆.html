@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>线上云纹博物馆</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+      .carousel-inner .carousel-item a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .bg-body-tertiary .navbar-brand img:nth-child(2) {
+        margin-top: 10px;
+      }
+      /* .bg-body-tertiary .navbar-brand img:nth-child(2):hover {
+        transform: rotate(-360deg);
+      } */
+
+      .yanbian {
+        margin-top: 40px;
+        text-align: center;
+      }
+      .dahezi {
+        opacity: 0.7;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 1519.2px;
+        height: 600px;
+        background: skyblue;
+      }
+      .xiaohezi {
+        position: absolute;
+        width: 100%;
+      }
+      .flex {
+        margin-top: 40px;
+        justify-content: center;
+        text-align: center;
+      }
+      body {
+        background: url(./背景图/背景图1.png);
+        /* rgba(255, 255, 255, 0.8); */
+      }
+
+      /* 长图 */
+    </style>
+  </head>
+  <body>
+    <!-- 导航 -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./背景图/背景图5.png" alt="" />
+          <img src="./故宫博物馆logo/logo.png" alt="" width="50px" />
+          <!-- <img src="./图片/logo1.png" alt="" width="50px" /> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><img src="./背景图/背景图6.png" alt=""
+              /></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="./跳转页面/朝代对比跳转.html"
+                >朝代对比</a
+              >
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="./your  name/tupian.html"
+                ><img src="./背景图/背景图7.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 轮播图 -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <!-- 1 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./your  name/renwu.html">
+              <h5>战国及以前</h5>
+              <p>
+                商周时期的云雷纹是青铜器上较为典型的纹样，图案的构成形式多为云纹和雷纹的连续纹样
+                <br />
+                春秋战国时期，云纹结构回旋盘曲，呈现多种样式，造就卷云纹独有的特点
+              </p>
+            </a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./your  name/renwu2.html">
+              <h5>秦汉时期</h5>
+              <p>
+                形成了更具时代感的云气纹。云气纹在主体云纹的基础上，出现了“云尾”
+                <br />
+                这就是云气纹最显著的特点
+              </p>
+            </a>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./your  name/renwu3.html">
+              <h5>魏晋南北朝-宋元</h5>
+              <p>
+                魏晋南北朝时期继承了汉代云气纹的流动感，并将“云头”和“云尾”以一种更加和谐自然的方式组合起来，形成了“朵云”的基本形态
+                <br />
+                隋唐时期，朵云纹趋于稳定并得到发展流行。宋辽时期，云纹样式以朵云纹和如意纹为主
+              </p>
+            </a>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="./your  name/renwu4.html">
+              <h5>明清时期</h5>
+              <p>明清时期则是盛行团云纹和叠云纹</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- 演变发展 -->
+    <div class="yanbian">
+      <img src="./背景图/背景图8.png" alt="" />
+    </div>
+
+    <!-- 长图对比 -->
+    <div class="dahezi">
+      <div class="xiaohezi">
+        <img src="./总结文字，长图.png" width="1519.2px" />
+      </div>
+    </div>
+
+    <!-- logo演变 -->
+    <!-- <div class="flex">
+      <h3>logo的演变</h3>
+      <img src="./图片/演变过程.png" alt="" />
+    </div> -->
+
+    <!-- 更多介绍 -->
+    <div class="intro container">
+      <div class="title">
+        <img src="./背景图/背景图9.png" alt="" />
+        <br />
+
+        <img src="./背景图/背景图10.png" alt="" />
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.dpm.org.cn/Home.html">
+              <!-- <h3>故宫博物院</h3> -->
+              <!-- <p>开放式的组件</p> -->
+              <img src="./故宫博物馆logo/故宫博物馆logo1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a
+              href="https://www.chnmus.net/ch/collection/treasure/details.html?id=508168229516397923"
+            >
+              <!-- <h3>河南省博物馆</h3> -->
+              <img src="./故宫博物馆logo/河南省博物馆1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="./云纹博物馆.html">
+              <!-- <h3>云纹博物馆</h3> -->
+              <img src="./故宫博物馆logo/云纹博物馆3.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.hbww.org.cn/home/index.html">
+              <!-- <h3>湖北省博物馆</h3> -->
+              <img src="./故宫博物馆logo/湖北省博物馆logo1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <h3>更多...</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6"><a href="#"> </a></div>
+          <div class="col-lg-3 col-md-6"><a href="#"> </a></div>
+          <div class="col-lg-3 col-md-6"><a href="#"> </a></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
